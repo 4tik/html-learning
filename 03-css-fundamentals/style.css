@@ -1,6 +1,12 @@
 body {
-  margin: 20px;
+  margin: 0px;
   font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 h1 {
   font-size: 26px;
@@ -44,5 +50,27 @@ ul {
 
 .related-author {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.main-header {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+aside {
+  background-color: antiquewhite;
+  padding: 5px 0px;
+  border-block: 5px solid #000;
+}
+
+/* styling link */
+a:link {
+  color: chocolate;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
   font-weight: bold;
 }
