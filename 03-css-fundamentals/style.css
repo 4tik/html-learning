@@ -1,6 +1,11 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 body {
   margin: 0;
   font-family: sans-serif;
+  color: #444;
 }
 
 h1,
@@ -32,8 +37,17 @@ p {
   line-height: 1.5;
 }
 
+li:first-child {
+  font-weight: bold;
+}
+
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 footer p {
