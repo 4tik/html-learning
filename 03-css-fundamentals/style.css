@@ -1,7 +1,7 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 body {
   margin: 0;
   font-family: sans-serif;
@@ -16,14 +16,18 @@ h3 {
 h1 {
   font-size: 26px;
   text-transform: uppercase;
+  margin: 10px 0;
 }
 
 h2 {
   font-size: 40px;
+  margin: 15px 0;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -35,6 +39,7 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li:first-child {
@@ -58,8 +63,22 @@ article header p {
   font-style: italic;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
 ul {
   list-style: none;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 .related-author {
@@ -69,7 +88,12 @@ ul {
 
 .main-header {
   background-color: antiquewhite;
-  padding: 10px;
+  padding: 20px 40px;
+}
+
+.post-img {
+  width: 800px;
+  height: auto;
 }
 
 aside {
